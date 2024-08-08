@@ -1,0 +1,41 @@
+openapi: 3.0.1
+info:
+  title: Swagger Dr. Search
+  description: This is an API document for Dr. Search App
+  contact:
+    email: info@smartlaboman.com
+  version: 1.0.0
+externalDocs:
+  description: Find out more about Swagger
+  url: http://swagger.io
+servers:
+- url: https://syhaty-api.smartlaboman.com/project/api/v1
+- url: http://127.0.0.1:5000/project/api/v1
+security:
+- basicAuth: []
+- JWT: []
+tags:
+- name: login
+  description: Operations about login
+- name: signup
+  description: Operations about signup
+- name: email
+  description: Operations about email
+- name: user
+  description: Operations about user
+- name: doctor
+  description: Operations about Doctor
+- name: patient
+  description: Operations about Patient
+- name: center
+  description: Operations about Center
+- name: media
+  description: Operations about Media
+- name: favorite
+  description: Operations about Favorite
+- name: payment
+  description: Operations about Payment
+- name: setting
+  description: Operations about Setting
+- name: chat
+  description: Operations about Chat
